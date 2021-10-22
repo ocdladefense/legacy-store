@@ -1,0 +1,19 @@
+.event-item {
+	margin-bottom:12px;
+}
+
+h1, h2 {
+	margin-top:0px;
+	font-weight:400;
+}
+
+h2.event-title {
+	margin-bottom:3px;
+}
+
+.event-year {
+	font-size: 2.0em;
+	padding-top:30px;
+	padding-bottom:5px;
+	border-bottom: 1px solid #ccc;
+}

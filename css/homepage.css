@@ -1,0 +1,194 @@
+
+
+.hasFixedNav .page-wrapper {
+	margin-top:110px;
+}
+
+.page-wrapper {
+	padding-left:0;
+	padding-right:0;
+}
+
+
+
+div#promoted-posts {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.post {
+	text-align:left;
+}
+
+.post figure {
+	margin: 0px;
+}
+
+figure.wp-block-image img {
+	max-width: 100%;
+}
+
+
+
+p,
+.instructions {
+	margin-bottom:15px;
+	line-height:1.5em;
+	text-rendering: optimizeLegibility;
+}
+
+
+h1, h2 {
+	font-family: Verdana;
+}
+
+
+
+@media only screen and (min-width: 800px) {
+
+	header {
+		background-color:transparent;
+	}
+
+	body {
+		background-color:transparent;
+	}	
+
+	header .nav {
+		background-color:rgba(0,0,0,0.3);
+	}
+
+	.hasFixedNav .page-wrapper {
+		margin-top:0px;
+	}
+	
+	.main {
+		border-radius: 7px;
+		width: 100%;
+	}
+
+	#hero {
+		background-image: url('/sites/force.com/assets/images/ocdla-hero.png');
+		background-position: top left;
+		background-repeat:no-repeat;
+		background-size:cover;
+		height:700px;
+		position:relative;
+	}
+
+
+	.hero-overlay {
+		position: absolute;
+		top:0px;
+		left:0px;
+		height:100%;
+		width:100%;
+		background-color:rgba(0,0,0,0.4);
+	}
+
+	.hero-content {
+		position:relative;
+		top:150px;
+		height:550px;
+	}
+
+	#hero .hero-title {
+		color:#fff;
+		font-family:Verdana;
+		font-weight:normal;
+		position:relative;
+		top:45px;
+	}
+	
+	#banner {
+		transition: background-color 0.4s ease-out;
+	}
+
+
+	.scrollDark {
+		background-color:rgba(0,0,0,0.3);
+	}
+	
+	header .nav .logo {
+		background-image: url('https://membertest.ocdla.org/sites/force.com/assets/images/logo-white.gif');
+	}
+	
+	
+	header.scrollInit {
+		background-color: #ccaa39;
+	}
+	
+	header.scrollInit .nav {
+		background-color:#53638c;
+	}	
+	
+
+
+
+	/*
+	 * Strength in numbers.  Fairness in justice.
+	 */
+	#hero .hero-slogan {
+		color:rgba(255,255,255,0.8);
+		font-size:1.4em;
+		position:absolute;
+		top:150px;
+		width:100%;
+		text-align:center;
+	}
+
+	#hero .hero-actions {
+		position:absolute;
+		bottom:100px;
+		text-align:center;
+		width:100%;
+		word-spacing: 15px;
+		font-family:Helvetica;
+	}
+
+	#hero .hero-action {
+		text-align:center;
+		display:inline-block;
+		word-spacing: initial;
+	}
+	
+	.hero-action a {
+		background-color:rgba(255,255,255,0.5);
+		display:inline-block;
+		padding:20px;
+		font-size:1.6em;
+		height:100%;
+		border-radius: 8px;
+		color:#333;
+		transition: background-color 0.4s ease-out;
+	}
+	
+	.hero-action a:hover {
+		text-decoration:none;
+		background-color:rgba(255,255,255,0.9);
+	}
+	
+
+	.promoted-item {
+		padding:10%;
+	}
+	
+	.promoted-content {
+		font-size:1.4em;
+		text-align:justify;
+		color:#666;
+	}
+	
+	.promoted-item h1 a,
+	.promoted-item h1 a:link,
+	.promoted-item h1 a:active {
+		color:#666;
+	}
+	
+	.promoted-item h1 a:hover {
+		color:#333;
+		text-decoration:none;
+	}
+
+
+}
