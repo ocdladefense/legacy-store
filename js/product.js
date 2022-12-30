@@ -1,35 +1,26 @@
-var toggleDrawer = function(){
-	jQuery('.nav-mobile').toggleClass('open');
-	jQuery(document.body).toggleClass('drawer-open');
-};
+console.log("Product scripts loaded.");
 
 
-var menuNav = function(e) {
-	e = e || window.event;
-	e.preventDefault();
-	e.stopPropagation();
-	var target, url;
-	
-	target = e.target || e.srcElement;
-	
-	if(target.dataset && target.dataset.catalogId) {
-		url = 'null' != target.dataset.url ? target.dataset.url : '/OcdlaCatalog?name='+target.dataset.catalogName;
-	} else {
-		return true;
-	}
-	
-	window.location = url;
+
+
+function enlargeThumbnail(e) {
+
+	let target = e.target;
+	let src = target.getAttribute("src");
+	console.log("foobar");
+
+	let primary = document.querySelector(".primary-image");
+	primary.src = src;
+
 	return false;
-};
+}
 
 
-jQuery(function(){
 
-	$('#drawer-toggle').click(toggleDrawer);
+domReady(function() {
+	let thumbs = document.querySelectorAll(".thumb");
 
-	var menus = document.getElementsByClassName('catalog-menu');
-	
-	for(var i = 0; i<menus.length; i++){
-		menus[i].addEventListener('click',menuNav,false);
+	for(let i = 0; i<thumbs.length; i++) {
+		thumbs[i].addEventListener("click", enlargeThumbnail);
 	}
 });
