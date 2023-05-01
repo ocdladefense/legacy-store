@@ -184,12 +184,19 @@ header .nav .logo {
 	width:150px;
 	display:inline-block;
 	left:5%;
+	vertical-align: middle;
 }
 
 header .nav ul {
-	position:absolute;
+	/* position:absolute;
 	right:0%;
 	top: 0;
+	*/
+	display: inline-block;
+	vertical-align: middle;
+	/* padding-bottom: 0px;
+	margin-bottom: 0px;
+	*/
 }
 
 
