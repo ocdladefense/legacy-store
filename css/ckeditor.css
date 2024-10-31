@@ -1,0 +1,40 @@
+  [id*="foobar"] {
+  	width: 1000px;
+  	margin: 20px auto;
+  }
+
+  .ck-editor__editable[role="textbox"] {
+  	/* editing area */
+  	min-height: 400px;
+  }
+
+  .ck-content .image {
+  	/* block images */
+  	max-width: 80%;
+  	margin: 20px auto;
+  }
+
+
+  h2,
+  .ck-heading_heading2 {
+  	font-size: 18pt;
+  }
+
+  h1,
+  .ck-heading_heading1 {
+  	font-size: 22pt;
+  }
+
+  .ck-editor h1, 
+  .ck-editor h2,
+  .ck-editor h3,
+  .ck-editor h4 {
+	margin-top: 25px;
+	margin-bottom: 20px !important;
+	display: block;
+  }
+
+  .ck-editor p,
+  .ck-editor li {
+	font-size: 1.2rem;
+  }
