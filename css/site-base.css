@@ -389,8 +389,8 @@ table.htmlDetailElementTable,
 
   .eventOverview .page-wrapper {
     max-width: 1000px;
-    margin: 0 auto;
-    overflow-x: hidden;
+    margin: 140px auto;
+    overflow: auto hidden;
   }
 
   .catalog-item {
